@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Convert Money</title>
+  </head>
+  <body>
+    <form>
+        <strong>Amount</strong><br>
+        <input id="amount" type="number" name="nhapso"/><br><br>
+        <strong>From Currency</strong><br>
+        <select id="fromcurrency">
+            <option value="VND">VietNam</option>
+            <option value="USD">USD</option>
+        </select><br><br>
+        <strong>To Currency</strong><br>
+        <select id="tocurrency">
+            <option value="USD">USD</option>
+            <option value="VND">VietNam</option>
+        </select><br><br>
+        <button id="convert" type="button">Convert</button><br><br>
+        <label id="result" style="color: blue;"></label>
+    </form>
+    <script type="text/javascript" src="convert-money.js"></script>
+  </body>
+</html>
